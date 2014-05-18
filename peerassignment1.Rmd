@@ -1,0 +1,16 @@
+Peer assesment 1 /Vilppu
+========================================================
+
+In this project the aim is to analyze some data and give answers to questions in order to learn the workflow of using knitr. I will be utilizing R, R-Studio, Knitr and Github to do so 
+
+First I will download the data and check how it looks
+
+```{r}
+data<-read.csv("activity_data/activity.csv",header=TRUE,sep=",")
+
+str(data)
+```
+
+In what follows I will first present the questions of the assignement and then answer to them 
+and show the code which I have used for the analysis
+
