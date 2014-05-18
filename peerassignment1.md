@@ -8,7 +8,6 @@ First I will download the data and check how it looks
 
 ```r
 data <- read.csv("activity_data/activity.csv", header = TRUE, sep = ",")
-
 str(data)
 ```
 
